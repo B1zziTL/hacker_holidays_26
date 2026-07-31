@@ -1,10 +1,8 @@
 **Room 3 = IAM - AWS**
 
-1\. app is using `AWS Cognito id pool` with unathenticated guest access
-
-2\. given URL's source page helds no extra information
-
-3\. `DevTools`, under Network provide actual `API` calls:
+1. app is using `AWS Cognito id pool` with unathenticated guest access
+2. given URL's source page helds no extra information
+3. `DevTools`, under Network provide actual `API` calls:
 
 &#x20;  - "https://cognito-identity.us-east-1.amazonaws.com/"
 
@@ -16,7 +14,7 @@
 
 &#x20;    -> `TableName: complimentary-GuestWellnessProfiles`
 
-4\. skipping `get-id` and reusing `IdentityId` above, can now ask for temporal access:
+4. skipping `get-id` and reusing `IdentityId` above, can now ask for temporal access:
 
 
 
