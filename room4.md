@@ -8,8 +8,8 @@
 - "Profile Hierarchy" -> using TCP HTTP 
 - "Conversations" -> seeing a surge of 616 bytes traffic to :8080 (the suspicious packets)
 4. based on the findings and filtering, using `Follow HTTP Stream`, I find a `.py` file
-5. the file is a `keylogger malware`, working on basis of Base64 encoding all captured keystrokes -> not directly readable
-6. reverse-engineering the malware would be pulling the cookies from all beacon packets -> Base64 decode each -> XOR (with provided key) -> concantenate in packet order: *THM{V3r4\_1s\_w4tch1ng\_0veR\_y0u}*
+5. the file is a `keylogger malware`, working on basis of `Base64 encoding` all captured keystrokes -> not directly readable
+6. `reverse-engineering` the malware would be pulling the cookies from all beacon packets -> `Base64` decode each -> `XOR` (with provided key) -> concantenate in packet order: *THM{V3r4\_1s\_w4tch1ng\_0veR\_y0u}*
 
 
 
