@@ -13,4 +13,7 @@ Room 3 ✅ - IAM misconfiguration, AWS, DynamoDB
 Room 4 ✅ - network traffic packet analysis, Wireshark, keylogger, XOR
 
 
-Room 5
+Room 5 ✅ - boot2root, RCE, reverse shell
+
+
+Room 6 ✅ - OSINT, MD5 hashing, Base64 decryption
