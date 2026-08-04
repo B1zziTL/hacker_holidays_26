@@ -17,3 +17,12 @@ Room 5 ✅ - boot2root, RCE, reverse shell
 
 
 Room 6 ✅ - OSINT, MD5 hashing, Base64 decryption
+
+
+Room 7 ⚠️ - YET TO BE ANALYSED
+
+
+Room 8 ✅ - API, BurpSuite
+
+
+Room 9 ✅ - Azure Key Vault, Azure CLI, cloud trust-chain
