@@ -1,28 +1,37 @@
-Room 0 ✅ - OSINT, metadata, Base64
+Room 0 (The Brochure) ✅ - OSINT, metadata, Base64
 
 
-Room 1 ✅ - AI prompt injection, user authentication
+Room 1 (The Concierge Knows Too Much) ✅ - AI prompt injection, user authentication
 
 
-Room 2 ✅ - directory enumeration, gobuster, git
+Room 2 (Room 404) ✅ - directory enumeration, gobuster, git
 
 
-Room 3 ✅ - IAM misconfiguration, AWS, DynamoDB
+Room 3 (Complimentary) ✅ - IAM misconfiguration, AWS, DynamoDB
 
 
-Room 4 ✅ - network traffic packet analysis, Wireshark, keylogger, XOR
+Room 4 (Packed Light) ✅ - network traffic packet analysis, Wireshark, keylogger, XOR
 
 
-Room 5 ✅ - boot2root, RCE, reverse shell
+Room 5 (Beach Bar) ✅ - boot2root, RCE, reverse shell
 
 
-Room 6 ✅ - OSINT, MD5 hashing, Base64 decryption
+Room 6 (Overheard at Breakfast) ✅ - OSINT, MD5 hashing, Base64 decryption
 
 
-Room 7 ⚠️ - YET TO BE ANALYSED
+Room 7 (Do Not Disturb) ⚠️ - YET TO BE ANALYSED (boot2root)
 
 
-Room 8 ✅ - API, BurpSuite
+Room 8 (Towel on the Sunbed) ✅ - API, BurpSuite
 
 
-Room 9 ✅ - Azure Key Vault, Azure CLI, cloud trust-chain
+Room 9 (CryptoCabana) ✅ - Azure Key Vault, Azure CLI, cloud trust-chain
+
+
+Room 10 (The Hollow Shell) ⚠️ - YET TO BE ANALYSED (ZipSlip)
+
+
+Room 11 (Infinity Pool) ✅ - boot2root, FreePBX UCP
+
+
+Room 12 (After Hours) - 
