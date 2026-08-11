@@ -8,7 +8,7 @@
 4. above mentioned IG account only followed 1 account, the concierge Vera -> _@veratheconcierge_
 5. Vera's IG account shared 3 posts, labeled in parts 1-3
 6. based on the "==" padding at the end of the shared code, it is identifiable as a `Base64` string broken into 3 parts
-7. decoding gets the flag:
+7. decoding gets the _{flag}_
 
 <details>
   <summary>Reveal the flag</summary>
