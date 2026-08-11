@@ -19,7 +19,7 @@ Room 5 (Beach Bar) ✅ - boot2root, RCE, reverse shell
 Room 6 (Overheard at Breakfast) ✅ - OSINT, MD5 hashing, Base64 decryption
 
 
-Room 7 (Do Not Disturb) ⚠️ - YET TO BE ANALYSED (boot2root)
+Room 7 (Do Not Disturb) ✅ - boot2root, SSTI, RCE, reverse shell
 
 
 Room 8 (Towel on the Sunbed) ✅ - API, BurpSuite
