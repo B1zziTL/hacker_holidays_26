@@ -32,7 +32,7 @@
 18. _{root flag}_ located in "root.txt"
 
 <details>
-  <summary>Reveal the 1st flag</summary>
+  <summary>Reveal the 2nd flag</summary>
 
   **_THM{r4w\_d1sk\_4cc3ss\_w4s\_t00\_much}_**
 
