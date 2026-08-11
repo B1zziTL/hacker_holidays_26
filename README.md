@@ -34,7 +34,7 @@ Room 10 (The Hollow Shell) ✅ - ZipSlip, RCE, reverse shell
 Room 11 (Infinity Pool) ✅ - boot2root, OS command injection, FreePBX UCP
 
 
-Room 12 (After Hours) ⚠️ - YET TO BE ANALYSED
+Room 12 (After Hours) ✅ - DFIR, reverse engineering, Base64, XOR
 
 
 Room 13 (The Guestbook) ⚠️ - YET TO BE ANALYSED
