@@ -12,7 +12,7 @@
   <details>
     <summary>Reveal the 1st flag</summary>
 
-    **_THM{y4ml\_pl4yl1st\_pwns\_th3\_b34ch}_**
+  **_THM{y4ml\_pl4yl1st\_pwns\_th3\_b34ch}_**
 
   </details>
  
@@ -25,7 +25,7 @@
   <details>
     <summary>Reveal the 2nd flag</summary>
 
-    **_THM{cr3d3nt14l\_r3us3\_4t\_th3\_b34ch\_b4r}_**
+  **_THM{cr3d3nt14l\_r3us3\_4t\_th3\_b34ch\_b4r}_**
 
   </details>
 
