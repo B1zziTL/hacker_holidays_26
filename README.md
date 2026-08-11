@@ -31,7 +31,7 @@ Room 9 (CryptoCabana) ✅ - Azure Key Vault, Azure CLI, cloud trust-chain
 Room 10 (The Hollow Shell) ✅ - ZipSlip, RCE, reverse shell
 
 
-Room 11 (Infinity Pool) ✅ - boot2root, FreePBX UCP
+Room 11 (Infinity Pool) ✅ - boot2root, OS command injection, FreePBX UCP
 
 
 Room 12 (After Hours) ⚠️ - YET TO BE ANALYSED
