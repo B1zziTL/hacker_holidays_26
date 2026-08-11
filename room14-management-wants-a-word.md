@@ -58,15 +58,15 @@ management-wants-a-word...\\KAPE\\C
 │                   └── (BrowserMetrics, Safe Browsing, ShaderCache … — ignore)
 │
 └── Windows
-&#x20;   ├── ServiceProfiles
-&#x20;   │   ├── LocalService\\NTUSER.DAT (+ logs)
-&#x20;   │   └── NetworkService\\NTUSER.DAT (+ logs)
-&#x20;   └── System32\\config
-&#x20;       ├── ⭐ SAM      (+ .LOG1/.LOG2)   ← Windows password hashes
-&#x20;       ├── ⭐ SYSTEM   (+ .LOG1/.LOG2)   ← key to unlock SAM
-&#x20;       ├── SECURITY (+ logs)
-&#x20;       ├── SOFTWARE (+ logs)
-&#x20;       └── DEFAULT  (+ logs)
+   ├── ServiceProfiles
+   │   ├── LocalService\\NTUSER.DAT (+ logs)
+   │   └── NetworkService\\NTUSER.DAT (+ logs)
+   └── System32\\config
+       ├── ⭐ SAM      (+ .LOG1/.LOG2)   ← Windows password hashes
+       ├── ⭐ SYSTEM   (+ .LOG1/.LOG2)   ← key to unlock SAM
+       ├── SECURITY (+ logs)
+       ├── SOFTWARE (+ logs)
+       └── DEFAULT  (+ logs)
 ```
 
 `visual file tree -> use SYSTEM to unlock SAM -> brute-force the hash -> 3-step pypykatz decryption -> navigate to vault -> reveal suspicious .pdf -> flag`
