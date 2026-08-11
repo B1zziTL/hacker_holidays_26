@@ -28,7 +28,7 @@ Room 8 (Towel on the Sunbed) ✅ - API, BurpSuite
 Room 9 (CryptoCabana) ✅ - Azure Key Vault, Azure CLI, cloud trust-chain
 
 
-Room 10 (The Hollow Shell) ⚠️ - YET TO BE ANALYSED (ZipSlip)
+Room 10 (The Hollow Shell) ✅ - ZipSlip, RCE, reverse shell
 
 
 Room 11 (Infinity Pool) ✅ - boot2root, FreePBX UCP
