@@ -37,4 +37,7 @@ Room 11 (Infinity Pool) ✅ - boot2root, FreePBX UCP
 Room 12 (After Hours) ⚠️ - YET TO BE ANALYSED
 
 
-Room 13 (Management Wants a Word) ⚠️ - YET TO BE ANALYSED
+Room 13 (The Guestbook) ⚠️ - YET TO BE ANALYSED
+
+
+Room 14 (Management Wants a Word) ⚠️ - YET TO BE ANALYSED
