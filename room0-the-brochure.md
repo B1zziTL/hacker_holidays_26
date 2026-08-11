@@ -1,7 +1,5 @@
 **Room 0 (The Brochure) = OSINT - metadata**
 
-
-
 1. first try was focusing on hidden metadata of provided `PNG`, using `exiftool` -> it turned out clean
 2. the room mentioned Instagram account -> lead to a search of IG account _@thebytelotusresort_
 3. Instagram scrapes metadata, so no use probing the posted photos
@@ -16,7 +14,6 @@
   **_THM{V3r@s\_aCC0unt\_h4s\_b33n\_f0und!}_**
 
 </details>
-
 
 `OSINT -> Base64 decoding -> flag`
 
