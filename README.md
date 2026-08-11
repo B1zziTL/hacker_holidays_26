@@ -40,4 +40,4 @@ Room 12 (After Hours) ✅ - DFIR, reverse engineering, Base64, XOR
 Room 13 (The Guestbook) ⚠️ - YET TO BE ANALYSED
 
 
-Room 14 (Management Wants a Word) ⚠️ - YET TO BE ANALYSED
+Room 14 (Management Wants a Word) ✅ - DFIR, Cryptography
